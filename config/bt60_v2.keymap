@@ -154,11 +154,7 @@
     };
     raise {
         // ------------------------------------------------------------------------------------------
-        // |GRAVE| F1  | F2  | F3  | F4  | F5  | F6  | F7  | F8  | F9  | F10 | F11 | F12 |    DEL   |
-        // | TAB  |  Q  | UP  |  E  | HUI | HUD |  Y  |  U  | INS |  O  |PSCRN| SLCK| P_B |  RGB_TOG|
-        // | CAPS  | LEFT| DOWN|RIGHT| BRI | BRD |  H  |  J  |  K  |  L  | HOME| PGUP|     BOOT     |
-        // |  SHFT    |VOLDN|VOLUP| MUTE|BLINC|BLDEC|  N  |  M  |  ,  | END | PGDN |      BL_TOG    |
-        // | BT_PRV | BT_NXT |   ALT  |             SPACE                | RESET |   1    |  BT_CLR |
+        // &kp GRAVE&kp F1  &kp F2  &kp F3  &kp F4  &kp F5 &kp &kp F7&kp F8&kp F9&kp F10&kp F11&kp F12&kp DEL&kp TAB  |  Q&kp UP&kp E&kp HUI&kp HUD&kp Y&kp U&kp INS &kp CAPS &kpLEFT &kp DOWN&kp RIGHT &kp BRI &kp BRD &kp H &kp J &kp K &kp L &kp HOME  &kp PGUP &kp BOOT &kp SHFT   &kp VOLDN &kp VOLUP &kp MUTE &kp BLINC &kp BLDEC &kp N &kp M &kp , &kp END &kp PGDN &kp BL_TOG  &kp BT_PRV | BT_NXT &kp ALT  |             SPACE &kp RESET |   1    |  BT_CLR |
         // ------------------------------------------------------------------------------------------
       bindings = <
         &kp GRAVE &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &kp DEL
